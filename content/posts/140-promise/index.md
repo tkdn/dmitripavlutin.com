@@ -5,7 +5,7 @@ published: "2021-07-15T08:00Z"
 modified: "2021-07-18T07:30Z"
 thumbnail: "./images/cover-6.png"
 slug: what-is-javascript-promise
-tags: ['javascript', 'promise']
+tags: ['javascript', 'promise', 'async']
 recommended: ['javascript-fetch-async-await', 'promise-all']
 type: post
 ---
