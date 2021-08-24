@@ -13,7 +13,7 @@ type: post
 Let's consider an asynchronous function `runLoop()` where inside a `for()` loop an `await` statement is used:
 
 ```javascript
-async function runLoop() {
+async function runFor() {
   for (let i = 0; i < 3; i++) {
     await delay(1000);
   }
@@ -36,3 +36,9 @@ function delay(time) {
 Here's the big question: does `Done!` message log to console after passing *1 second* or *3 seconds*? 
 
 In this post the answer to this question, and generally how `await` behaves in JavaScript loops.  
+
+## 1. *await* in loops
+
+## 2. await for...of syntax
+
+## 3. Conclusion
